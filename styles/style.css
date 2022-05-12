@@ -1,0 +1,10 @@
+#imagem .imagem {
+  text-align: center;
+  width: 100%;
+}
+
+#imagem .imagem img {
+  margin: 200px;
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */
