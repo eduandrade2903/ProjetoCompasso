@@ -12,23 +12,24 @@
   background: #FFA451;
   width: 100%;
   height: 300px;
+  text-align: center;
 }
 
 #fundo .fruta {
   position: absolute;
   top: 45px;
-  left: 720px;
+  left: 790px;
 }
 
 #fundo .cesto {
-  margin: 50px 495px;
+  margin: 50px;
   width: 250px;
 }
 
 #fundo .sombra {
   position: absolute;
   top: 270px;
-  left: 470px;
+  left: 545px;
 }
 
 #content {
