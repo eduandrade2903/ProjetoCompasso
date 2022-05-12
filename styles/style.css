@@ -3,8 +3,73 @@
   width: 100%;
 }
 
-#imagem .imagem img {
-  margin: 100px;
+#imagem .imagem .box {
+  margin: 200px;
   width: 300px;
+}
+
+#fundo {
+  background: #FFA451;
+  width: 100%;
+  height: 300px;
+}
+
+#fundo .fruta {
+  position: absolute;
+  top: 45px;
+  left: 720px;
+}
+
+#fundo .cesto {
+  margin: 50px 495px;
+  width: 250px;
+}
+
+#fundo .sombra {
+  position: absolute;
+  top: 270px;
+  left: 470px;
+}
+
+#content {
+  margin: 55px;
+  text-align: center;
+}
+
+#content h2 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#content h3 {
+  text-align: center;
+  font-weight: 400;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#content .btn {
+  margin-top: 60px;
+  background: #FFA451;
+  width: 25%;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#content .btn.btn:hover {
+  text-transform: uppercase;
+}
+
+#content a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

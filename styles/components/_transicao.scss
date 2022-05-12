@@ -1,0 +1,61 @@
+#fundo{
+    background: #FFA451;
+    width: 100%;
+    height: 300px;
+    .fruta{
+        position:absolute;
+        top: 45px;
+        left: 720px
+    }
+    .cesto{
+        margin: 50px 495px;
+        width: 250px;
+        
+    }
+    .sombra{
+        position: absolute;
+        top: 270px;
+        left: 470px;      
+    }
+}
+#content{
+    margin: 55px;
+    text-align: center;
+    h2{
+        font-size: 16px;
+        font-weight: 700;
+        padding: 15px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+    h3{
+        text-align: center;
+        font-weight: 400;
+        padding:15px;    
+        font-family: 'Roboto', sans-serif; 
+        
+    }
+    .btn {
+        margin-top: 60px;
+        background: #FFA451;
+        width: 25%;
+        height: 50px;
+        border: none;
+        border-radius: 30px;
+        text-align: center;
+        &.btn:hover{
+            text-transform: uppercase;
+            
+        }
+    }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+}
+
+
+@media screen and (max-width:480px){
+    
+    
+}
