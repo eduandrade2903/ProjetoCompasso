@@ -1,5 +1,5 @@
 @import '../abstract/variaveis';
-#fundo{
+#bg{
     background: $cor-de-fundo;
     width: 100%;
     height: 350px;
@@ -10,34 +10,43 @@
         top: 45px;
         left: 750px
     }
-    .cesto{
-        margin: 50px;
+    .cesto2{
+        margin: 25px;
         width: auto;
         
     }
-    .sombra{
+    .elipse{
         position: absolute;
         top: 320px;
         left: 475px;   
          
     }
 }
-#content{
-    margin: 55px;
+main{
+    width: 940px;
+    margin: 0 auto;
+    font-family: $fonte;
+}
+#form{    
+    margin: 30px;
     text-align: center;
     font-family: $fonte;
-    h2{
-        font-size: 16px;
-        font-weight: 700;
-        padding: 15px;
-        
+    font-size: 1.2rem;
+    form label{
+        display: block;
+        padding:20px;
     }
-    h3{
+    form input{
+        width: 50%;
+        padding: 20px;
+        border:none;
         text-align: center;
-        font-weight: 400;
-        padding:15px;    
-        
+        border-radius: 10px;
+        background: $fundo-input;
+        text-transform: uppercase;
+
     }
+   
     .btn {
         margin-top: 60px;
         background: #FFA451;
@@ -48,17 +57,13 @@
         text-align: center;
         &.btn:hover{
             text-transform: uppercase;
-            
         }
     }
-        a{
-            text-decoration: none;
-            color: white;
-        }
-}
-
-
-@media screen and (max-width:480px){
+    a{
+        text-decoration: none;
+        color: white;
+    }
     
+
     
 }

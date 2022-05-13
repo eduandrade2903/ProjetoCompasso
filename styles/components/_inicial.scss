@@ -7,4 +7,24 @@
             width: 300px;
         }
     }
+    .btn {
+        position: absolute;
+        top: 380px;
+        left: 465px;
+        margin-top: 60px;
+        background: #FFA451;
+        width: 25%;
+        height: 50px;
+        border: none;
+        border-radius: 30px;
+        text-align: center;
+        &.btn:hover{
+            text-transform: uppercase;
+            
+        }
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
