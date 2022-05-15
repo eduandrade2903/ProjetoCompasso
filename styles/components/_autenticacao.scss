@@ -1,69 +1,20 @@
 @import '../abstract/variaveis';
-#bg{
-    background: $cor-de-fundo;
-    width: 100%;
-    height: 350px;
-    text-align: center;
-    .fruta{
-        position:absolute;
-        width: 80px;
-        top: 45px;
-        left: 750px
-    }
-    .cesto2{
-        margin: 25px;
-        width: auto;
-        
-    }
-    .elipse{
-        position: absolute;
-        top: 320px;
-        left: 475px;   
-         
-    }
-}
-main{
-    width: 940px;
-    margin: 0 auto;
-    font-family: $fonte;
-}
-#form{    
-    margin: 30px;
-    text-align: center;
-    font-family: $fonte;
-    font-size: 1.2rem;
+#content{
     form label{
-        display: block;
-        padding:20px;
+        @include font-title;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -1%;
+        text-align: center;
+        margin-left: -2px;
     }
     form input{
-        width: 50%;
-        padding: 20px;
-        border:none;
-        text-align: center;
+        width: 327px;
+        height: 56px;
         border-radius: 10px;
-        background: $fundo-input;
-        text-transform: uppercase;
-
-    }
-   
-    .btn {
-        margin-top: 60px;
-        background: #FFA451;
-        width: 25%;
-        height: 50px;
         border: none;
-        border-radius: 30px;
-        text-align: center;
-        &.btn:hover{
-            text-transform: uppercase;
-        }
+        background-color: #F7F5F5;
+        display: block;
+        
     }
-    a{
-        text-decoration: none;
-        color: white;
-    }
-    
-
-    
 }

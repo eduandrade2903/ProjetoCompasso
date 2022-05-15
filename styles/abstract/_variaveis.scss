@@ -1,3 +1,39 @@
 $cor-de-fundo: #FFA451;
 $fundo-input: #dad6d6;
 $fonte: 'Roboto', sans-serif;
+
+@mixin nav {
+    .nav-bar{
+        ul li{
+            .relogio{
+                position: absolute;
+                width:54px;
+                left: 21px;
+                right: 300px;
+                top: 14px;
+                bottom: 11px;
+            }
+            .sinal{
+                position: absolute;
+                width: 17px;
+                height: 10.67px;
+                top: 17.67px;
+                left:293.67px;
+            }
+            .wifi{
+                position: absolute;
+                width: 15.27px;
+                height: 10.97px;
+                top: 17.33px;
+                left: 315.69px;
+            }
+            .bateria{
+                position:absolute;
+                width: 24.33px;
+                height: 11.33px;
+                top: 17.33px;
+                left: 336px;
+            }
+        }
+    }
+}

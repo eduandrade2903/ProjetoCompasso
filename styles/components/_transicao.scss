@@ -1,64 +1,90 @@
 @import '../abstract/variaveis';
-#fundo{
-    background: $cor-de-fundo;
-    width: 100%;
-    height: 350px;
-    text-align: center;
-    .fruta{
-        position:absolute;
-        width: 80px;
-        top: 45px;
-        left: 750px
-    }
-    .cesto{
-        margin: 50px;
-        width: auto;
-        
-    }
-    .sombra{
-        position: absolute;
-        top: 320px;
-        left: 475px;   
-         
-    }
-}
-#content{
-    margin: 55px;
-    text-align: center;
-    font-family: $fonte;
-    h2{
-        font-size: 16px;
-        font-weight: 700;
-        padding: 15px;
-        
-    }
-    h3{
+    header{
+        background: $cor-de-fundo;
         text-align: center;
-        font-weight: 400;
-        padding:15px;    
-        
+        width: 375px;
+        height: 469px;
+        @include nav;
+        .cesto{
+            position: absolute;
+            width: 301px;
+            height: 260px;
+            top: 131px;
+            left: 35px;
+            right: 39px;
+            bottom: 78px;
+        }
+        .fruta{
+            position: absolute;
+            width: 50px;
+            height: 37.52px;
+            top: 131px;
+            right: 31px;
+            left: 282px;
+            bottom:300.48px;
+        }
+        .sombra{
+            position: absolute;
+            width: 301px;
+            height: 12px;
+            top: 423px;
+            left: 37px;
+            right: 37px;
+            bottom: 34px;
+        }
     }
-    .btn {
-        margin-top: 60px;
-        background: #FFA451;
-        width: 25%;
-        height: 50px;
-        border: none;
-        border-radius: 30px;
-        text-align: center;
-        &.btn:hover{
-            text-transform: uppercase;
+    
+    @mixin font-title {
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: #27214D;
+            margin-left: 24px;
+    }
+    @mixin font-text {
+        font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            margin-left: 24px;
+            color: #27214D;
             
+    }
+    #content{
+        padding: 8px;
+        text-align: left;
+        vertical-align: bottom;
+        margin: 40px 24px 92px 24px;
+        .title{
+            line-height: 19.17px;
+            font-style: bold;
+            letter-spacing: -1%;
+            @include font-title();
+        }
+        .p{
+            line-height: 24px;
+            @include font-text();
+        }
+        .btn{
+            position: absolute;
+            width: 327px;
+            height: 56px;
+            left: 24px;
+            top: 664px;
+            border-radius: 10px;
+            background: $cor-de-fundo;
+            a{
+                text-decoration: none;
+                color:white;
+                font-weight: 500px;
+                font-size: 16px;
+                text-align: center;
+            }
         }
     }
-        a{
-            text-decoration: none;
-            color: white;
-        }
-}
+
+ 
+             
+    
 
 
-@media screen and (max-width:480px){
     
-    
-}

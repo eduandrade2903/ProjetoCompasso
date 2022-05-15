@@ -1,30 +1,53 @@
+
+    .fundobranco{
+        background: #FFFFFF;
+        .nav-bar{
+            ul li{
+                .relogio{
+                    position: absolute;
+                    width:54px;
+                    left: 21px;
+                    right: 300px;
+                    top: 14px;
+                    bottom: 11px;
+                }
+                .sinal{
+                    position: absolute;
+                    width: 17px;
+                    height: 10.67px;
+                    top: 17.67px;
+                    left:293.67px;
+                }
+                .wifi{
+                    position: absolute;
+                    width: 15.27px;
+                    height: 10.97px;
+                    top: 17.33px;
+                    left: 315.69px;
+                }
+                .bateria{
+                    position:absolute;
+                    width: 24.33px;
+                    height: 11.33px;
+                    top: 17.33px;
+                    left: 336px;
+                }
+            }
+        }
+        
+    }
+
+
+
 #imagem{
     .imagem{
-        text-align: center;
-        width: 100%;
         .box{
-            margin: 200px;
-            width: 300px;
+            position: absolute;
+            width: 184px;
+            height: 205.05px;
+            top: 303px;
+            left: 95px;
         }
     }
-    .btn {
-        position: absolute;
-        top: 380px;
-        left: 465px;
-        margin-top: 60px;
-        background: #FFA451;
-        width: 25%;
-        height: 50px;
-        border: none;
-        border-radius: 30px;
-        text-align: center;
-        &.btn:hover{
-            text-transform: uppercase;
-            
-        }
-    }
-    a{
-        text-decoration: none;
-        color: white;
-    }
+    
 }
