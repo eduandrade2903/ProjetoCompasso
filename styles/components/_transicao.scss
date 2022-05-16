@@ -35,14 +35,14 @@
     }
     
     @mixin font-title {
-            font-family:Arial, Helvetica, sans-serif;
+            
             font-weight: 700;
             font-size: 16px;
             color: #27214D;
             margin-left: 24px;
     }
     @mixin font-text {
-        font-family: Arial, Helvetica, sans-serif;
+        
             font-weight: 400;
             font-size: 16px;
             margin-left: 24px;
@@ -66,20 +66,11 @@
         }
         .btn{
             position: absolute;
-            width: 327px;
+            width: 219px;
             height: 56px;
-            left: 24px;
-            top: 664px;
             border-radius: 10px;
             background: $cor-de-fundo;
-            a{
-                text-decoration: none;
-                color:white;
-                font-weight: 500px;
-                font-size: 16px;
-                text-align: center;
-            }
-        }
+    }
     }
 
  

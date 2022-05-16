@@ -1,0 +1,107 @@
+@import '../abstract/variaveis';
+
+#cart-header{
+    @include nav;
+    height: 314px;
+    background: $cor-de-fundo;
+    .quinoa{
+        width: 176px;
+        height: 176px;
+        position: absolute;
+        top: 106px;
+        left: 101px;
+        right: 98px;
+    }
+    .btn{ 
+        width: 75px;
+        height: 32px;
+        border: none;
+        border-radius: 100px;
+        position: absolute;
+        top: 64px;
+        left: 24px;
+        padding:6px, 8px, 6px, 8px;
+
+        a{
+        text-decoration: none;
+        color: $cor-fonte-texto;
+        margin-left: 10px;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+       
+        }
+        .seta{
+            position:absolute ;
+            top: 6px;
+            left: 8px;
+            right: 4px;
+            width: 10px;
+            height: 20px;
+        }
+
+    }
+}
+main{
+    #add{
+        top: 314px;
+        background-color: #FFF;
+        border: 1px solid #FFF;
+        border-radius: 10px;
+        .title{
+            @include font-title;
+            font-weight: 500;
+            margin: 40px;
+        }
+        .qtd{
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+        h2{
+            @include font-text;
+            font-size: 18px;
+            margin-top: 57px;
+        }
+        .linha{
+           width: 56px;
+           position: absolute; 
+           left:24px;
+        }
+        ul{ 
+            margin: 22px;
+            li{
+                @include font-text;
+                color: #403E3E;
+                display: inline;
+                line-height: 16px;
+                align-items: center;
+                font-size: 12px;
+                
+                
+            }
+        }
+        h3{
+            @include font-text;
+            color: #333333;
+            font-weight: 300;
+            font-size:14px;
+            line-height:24px;
+            margin-right: 49px;
+            letter-spacing: -1%;
+
+        }
+        .favorito{
+            width: 48px;
+            height: 48px;
+            position: absolute;
+            top: 744px;
+            left: 24px;
+        }
+        .btn{
+            @include btn;
+            position: absolute;
+            right: 24px;
+            bottom: 16px;
+        }
+    }
+}
