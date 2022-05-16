@@ -1,6 +1,7 @@
 $cor-de-fundo: #FFA451;
 $fundo-input: #dad6d6;
 $fonte: 'Roboto', sans-serif;
+$cor-fonte-texto: #27214D;
 
 @mixin nav {
     .nav-bar{
@@ -37,3 +38,4 @@ $fonte: 'Roboto', sans-serif;
         }
     }
 }
+

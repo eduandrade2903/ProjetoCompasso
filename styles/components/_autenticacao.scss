@@ -1,4 +1,38 @@
 @import '../abstract/variaveis';
+#aut-header{
+    background: $cor-de-fundo;
+    text-align: center;
+    width: 375px;
+    height: 469px;
+    @include nav;
+    .cesto{
+        position: absolute;
+        width: 301px;
+        height: 260px;
+        top: 131px;
+        left: 35px;
+        right: 39px;
+        bottom: 78px;
+    }
+    .fruta{
+        position: absolute;
+        width: 50px;
+        height: 37.52px;
+        top: 131px;
+        right: 31px;
+        left: 282px;
+        bottom:300.48px;
+    }
+    .sombra{
+        position: absolute;
+        width: 301px;
+        height: 12px;
+        top: 423px;
+        left: 37px;
+        right: 37px;
+        bottom: 34px;
+    }
+}
 #content{
     form label{
         @include font-title;

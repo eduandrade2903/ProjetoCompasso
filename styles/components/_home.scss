@@ -1,1 +1,362 @@
 @import '../abstract/variaveis';
+#home-header{
+    @include nav;
+    .barras{
+        .maior{
+            width: 22px;
+            height: 2.75px;
+            position: absolute;
+            top: 56.25px;
+            right: 329px;
+            bottom: 752.75px;
+            left: 24px;
+        }
+        .menor{
+            width: 13.75px;
+            height: 2.75px;
+            position:absolute;
+            top:64.75px;
+            right: 337.25px;
+            bottom: 744.5px;
+            left: 24px;
+        }
+    }
+    .user{
+        width: 106px;
+        height: 24px;
+        position: absolute;
+        top: 50px;
+        right: 207px;
+        bottom: 738px;
+        left: 62px;
+
+    }
+    .cart{
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top:38px;
+        right: 24px;
+        bottom: 726px;
+        left: 303px;
+    }
+    ul{
+        li{ 
+            .search-symbol{
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                top: 106px;
+                right: 315px;
+                bottom: 690px;
+                left: 44px;
+        
+            }
+        }   
+    }
+    ul{
+        li {
+            #search{
+                background:#F5F5F5;
+                width: 288px;
+                height: 56px;
+                position: absolute;
+                top:86px;
+                right: 67px;
+                bottom: 670px;
+                left: 20px;
+                border:none;
+                text-align: center;
+                border-radius: 16px;
+                opacity: 0.7;
+            }
+
+        }
+    } 
+    .left{
+        width: 19px;
+        height: 8px;
+        position: absolute;
+        top: 104px;
+        right: 38px;
+        bottom: 700px;
+        left: 318px;
+    }
+    .right{
+        width: 19px;
+        height: 8px;
+        position: absolute;
+        top: 113px;
+        right: 38px;
+        bottom: 691px;
+        left: 318px;
+    }
+}
+.main-home{
+    .lista { 
+       
+        li{
+            box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            padding: 8px 16px 8px 16px;
+            display: inline;    
+            position: relative;
+            top: 226px;
+            left: 24px;
+            justify-content: space-around;
+             a{
+                list-style: none;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: -1%;
+                text-align: center;
+                color: black;
+               
+             }
+            
+        }
+    }
+    #recomendacao{
+        h4{
+            width: 190px;
+            height: 30px;
+            font-style: normal;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            position:absolute;
+            top: 298px; 
+            right: 161px; 
+            bottom: 484px;
+            left: 24px;            
+        }
+        .bar{
+            position: absolute;
+            width: 56px;
+            top: 334px;
+            right: 295px;
+            bottom: 478px;
+            left: 24px;
+        }
+        .cards{
+            position: relative;
+            top: 350px;
+            left: 24px;
+            display: flex;
+            flex-direction: row;
+            .card1{
+                margin-left: 24px;
+                .favorito{
+                    position: absolute;
+                    top: 0px;
+                    right: 16px;
+                    bottom: 431.68px;
+                    left: 120px;
+                }
+                h5{
+                    color: $cor-fonte-texto;
+                    position: absolute;
+                    font-weight: 500;
+                    font-size:14px;
+                    line-height: 18px;
+                    letter-spacing: -1%;
+                    width: 117px;
+                    height: 18px;
+                    left: 0;
+                    
+                }
+                .simbolo{
+                    position: absolute;
+                    top: 110px;
+                    right: 76px;
+                    bottom: 20px;
+                    left: 0px;
+                }
+                p{
+                    position: absolute;
+                    top: 109px;
+                    left: 22px;
+                    color: $cor-de-fundo;
+                }
+                .adicionar{
+                    position: absolute;
+                    top: 105px;
+                    left: 120px;
+                }
+                
+            }
+            .card2{
+                position: absolute;
+                left: 199px;
+                text-align: center;
+                .favorito{
+                    position:absolute;
+                    top:0px;
+                    right: -5px;
+                }
+                .simbolo{
+                    position: absolute;
+                    top: 110px;
+                    left: 0px;
+                }
+                h5{
+                    color: $cor-fonte-texto;
+                    font-weight: 500;
+                    font-size:14px;
+                    line-height: 18px;
+                    letter-spacing: -1%;
+                    width: 127px;
+                    height: 18px;
+                    left: 0;
+                }
+                p{
+                    position: absolute;
+                    top: 109px;
+                    left: 22px;
+                    color: $cor-de-fundo;
+                }
+                .adicionar{
+                    position: absolute;
+                    top: 105px;
+                    right: -5px;
+                }
+            }
+        
+        }
+    }
+    #selecao{
+        .opcoes{ 
+            .linha{
+                width: 38px;
+                position: absolute;
+                top: 590px;
+                right: 313px;
+                left: 34px;
+            }
+            .p{
+                position: absolute;
+                top: 573px;
+                right: 101px;
+                bottom: 209;
+                left: 24px;
+                li{
+                    display: inline;
+                }
+                li:first-child{
+                    opacity:1;
+                }
+                li:nth-child(2)
+                {
+                    opacity: 0.7;
+                }
+                li:nth-child(3)
+                {
+                    opacity: 0.7;
+                }
+               
+                a{
+                    list-style: none;
+                    text-decoration: none ;
+                    padding:10px;
+                    color: $cor-fonte-texto;
+                    font-weight:400;
+                }
+                
+                  
+
+            }
+        }
+        .others{
+           
+            .plate1{
+                width: 140px;
+                height: 150px;
+                position: absolute;
+                top: 633px;
+                left: 24px;
+                right: 211px;
+                .coracao{
+                    position: absolute;
+                    top:0px;
+                    right: 16px;   
+                }
+                h5{ 
+                    position: absolute;
+                    left: 0;
+                    width: 111px;
+                    height: 18px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    color: $cor-fonte-texto;
+                }
+                .simbolo{   
+                    position: absolute;
+                    top: 110px;
+                    left: 0;
+                    
+                }
+                p{
+                    position: absolute;
+                    top: 109px;
+                    left: 20px;
+                    color: $cor-de-fundo;
+                }
+                .adicionar{
+                    position: absolute;
+                    top:103px;
+                    right: 16px;
+                }
+            }
+            .plate2{
+                position: absolute;
+                top: 633px;
+                left: 180px;
+                .coracao{
+                    position: absolute;
+                    top:0px;
+                    right: -25px;   
+                }
+                h5{ 
+                    position: absolute;
+                    top:65px;
+                    left: 0;
+                    width: 111px;
+                    height: 18px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    color: $cor-fonte-texto;
+                }
+                .simbolo{   
+                    position: absolute;
+                    top: 109px;
+                    left: 0;
+                    
+                }
+                p{
+                    position: absolute;
+                    top: 108px;
+                    left: 20px;
+                    color: $cor-de-fundo;
+                }
+                .adicionar{
+                    position: absolute;
+                    top:102px;
+                    right: -25px;
+                }
+                a{
+                    position: absolute;
+                    top:102px;
+                    left: -50px;
+                    opacity: 0;
+                    
+                }
+
+                
+            }
+        }
+    }
+}
