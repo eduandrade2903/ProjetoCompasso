@@ -1,0 +1,99 @@
+@import '../abstract/variaveis';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #323232;
+    border: none;
+    font-family: 'Roboto Serif', serif;
+}
+.addcard{
+  
+    .elipse{
+        width: 48px;
+        height: 48px;
+        margin-top: 16px;
+        
+        margin-bottom: 16px;  
+        position: relative;
+        left:320px;
+        
+        opacity: 1;
+    }   
+}
+form{
+    
+    width: 375px;
+    height: 467px;
+    .nome{
+        position: absolute;
+        top:75px;
+        left: 16px;
+        font-family:"tt norms pro", sans-serif;
+        color:#27214D;
+        font-weight: 400;
+        font-size:16px;
+        letter-spacing: -1%;
+    }
+    .numero{
+        position: absolute;
+        top: 155px;
+        left: 16px;
+        font-family:"tt norms pro", sans-serif;
+        color:#27214D;
+        font-weight: 400;
+        font-size:16px;
+        letter-spacing: -1%;
+
+        
+    }
+    
+    .full-box{
+        display: flex;
+        width: 90%;
+        height: 56px;
+        background: $fundo-input;
+        border-radius: 10px ;
+        margin-left: 16px;
+        margin-top:16px;
+        
+    }   
+   .date{
+       position: absolute;
+       left: 24px;
+       top: 260px;
+   }
+   .code{
+       position: absolute;
+       left:190px;
+       top: 260px;
+
+   }
+    .half-box{
+        margin-top: 57px;
+        margin-left: 16px;
+        display: inline;
+        width: 36%;
+        height: 56px;
+        background: $fundo-input;
+        border-radius: 10px ;
+        justify-content: space-between;
+    }
+
+}
+
+.submit{
+    position: absolute;
+        width: 137px;
+        height: 56px;
+        border-radius: 10px;
+        background: $cor-de-fundo;
+        border: none;
+        top: 387px;
+        left: 110px;
+    a{
+        text-decoration: none;
+        font-family:'TT Norms Pro', sans-serif;
+        color: white;
+    }
+}
