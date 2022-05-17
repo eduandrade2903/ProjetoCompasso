@@ -1,5 +1,6 @@
 @import '../abstract/variaveis';
 #home-header{
+    font-family:'TT Norms Pro', sans-serif;
     @include nav;
     .barras{
         .maior{
@@ -29,6 +30,7 @@
         right: 207px;
         bottom: 738px;
         left: 62px;
+        font-family:'TT Norms Pro', sans-serif;
 
     }
     .cart{
@@ -93,6 +95,7 @@
     }
 }
 .main-home{
+    font-family:'TT Norms Pro', sans-serif;
     .lista { 
        
         li{
@@ -119,6 +122,7 @@
         }
     }
     #recomendacao{
+        font-family:'TT Norms Pro', sans-serif;
         h4{
             width: 190px;
             height: 30px;
@@ -164,25 +168,25 @@
                     letter-spacing: -1%;
                     width: 117px;
                     height: 18px;
-                    left: 0;
+                    left:0;
                     
                 }
                 .simbolo{
                     position: absolute;
-                    top: 110px;
+                    top: 120px;
                     right: 76px;
                     bottom: 20px;
                     left: 0px;
                 }
                 p{
                     position: absolute;
-                    top: 109px;
+                    top: 119px;
                     left: 22px;
                     color: $cor-de-fundo;
                 }
                 .adicionar{
                     position: absolute;
-                    top: 105px;
+                    top: 115px;
                     left: 120px;
                 }
                 
@@ -198,7 +202,7 @@
                 }
                 .simbolo{
                     position: absolute;
-                    top: 110px;
+                    top: 120px;
                     left: 0px;
                 }
                 h5{
@@ -209,17 +213,17 @@
                     letter-spacing: -1%;
                     width: 127px;
                     height: 18px;
-                    left: 0;
+                    left: 16px;
                 }
                 p{
                     position: absolute;
-                    top: 109px;
+                    top: 119px;
                     left: 22px;
                     color: $cor-de-fundo;
                 }
                 .adicionar{
                     position: absolute;
-                    top: 105px;
+                    top: 115px;
                     right: -5px;
                 }
             }
@@ -227,6 +231,7 @@
         }
     }
     #selecao{
+        font-family:'TT Norms Pro', sans-serif;
         .opcoes{ 
             .linha{
                 width: 38px;
@@ -237,6 +242,7 @@
             }
             .p{
                 position: absolute;
+                width: 375px;
                 top: 573px;
                 right: 101px;
                 bottom: 209;

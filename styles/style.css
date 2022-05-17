@@ -1,6 +1,7 @@
 @import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
 .fundobranco {
   background: #FFFFFF;
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 .fundobranco .nav-bar ul li .relogio {
@@ -45,6 +46,7 @@
 }
 
 #Welcome-header {
+  font-family: 'TT Norms Pro', sans-serif;
   background: #FFA451;
   text-align: center;
   width: 375px;
@@ -122,6 +124,7 @@
 }
 
 #content .title {
+  margin-bottom: 8px;
   line-height: 19.17px;
   font-style: bold;
   letter-spacing: -1%;
@@ -129,22 +132,34 @@
   font-size: 16px;
   color: #27214D;
   margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 #content .p {
+  padding: 10px;
   line-height: 24px;
   font-weight: 400;
   font-size: 16px;
   margin-left: 24px;
   color: #27214D;
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 #content .btn {
   position: absolute;
-  width: 219px;
+  top: 664px;
+  left: 24px;
+  width: 327px;
   height: 56px;
   border-radius: 10px;
   background: #FFA451;
+  border: none;
+}
+
+#content .btn a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 #aut-header {
@@ -222,6 +237,7 @@
   font-size: 16px;
   color: #27214D;
   margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: -1%;
@@ -236,6 +252,10 @@
   border: none;
   background-color: #F7F5F5;
   display: block;
+}
+
+#home-header {
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 #home-header .nav-bar ul li .relogio {
@@ -299,6 +319,7 @@
   right: 207px;
   bottom: 738px;
   left: 62px;
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 #home-header .cart {
@@ -356,6 +377,10 @@
   left: 318px;
 }
 
+.main-home {
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
 .main-home .lista li {
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25);
@@ -378,6 +403,10 @@
   letter-spacing: -1%;
   text-align: center;
   color: black;
+}
+
+.main-home #recomendacao {
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 .main-home #recomendacao h4 {
@@ -442,7 +471,7 @@
 
 .main-home #recomendacao .cards .card1 .simbolo {
   position: absolute;
-  top: 110px;
+  top: 120px;
   right: 76px;
   bottom: 20px;
   left: 0px;
@@ -450,14 +479,14 @@
 
 .main-home #recomendacao .cards .card1 p {
   position: absolute;
-  top: 109px;
+  top: 119px;
   left: 22px;
   color: #FFA451;
 }
 
 .main-home #recomendacao .cards .card1 .adicionar {
   position: absolute;
-  top: 105px;
+  top: 115px;
   left: 120px;
 }
 
@@ -475,7 +504,7 @@
 
 .main-home #recomendacao .cards .card2 .simbolo {
   position: absolute;
-  top: 110px;
+  top: 120px;
   left: 0px;
 }
 
@@ -487,20 +516,24 @@
   letter-spacing: -1%;
   width: 127px;
   height: 18px;
-  left: 0;
+  left: 16px;
 }
 
 .main-home #recomendacao .cards .card2 p {
   position: absolute;
-  top: 109px;
+  top: 119px;
   left: 22px;
   color: #FFA451;
 }
 
 .main-home #recomendacao .cards .card2 .adicionar {
   position: absolute;
-  top: 105px;
+  top: 115px;
   right: -5px;
+}
+
+.main-home #selecao {
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 .main-home #selecao .opcoes .linha {
@@ -513,6 +546,7 @@
 
 .main-home #selecao .opcoes .p {
   position: absolute;
+  width: 375px;
   top: 573px;
   right: 101px;
   bottom: 209;
@@ -639,6 +673,7 @@
 }
 
 #cart-header {
+  font-family: 'TT Norms Pro', sans-serif;
   height: 314px;
   background: #FFA451;
 }
@@ -703,6 +738,7 @@
   font-size: 12px;
   line-height: 16px;
   font-weight: 400;
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 #cart-header .btn .seta {
@@ -712,6 +748,10 @@
   right: 4px;
   width: 10px;
   height: 20px;
+}
+
+main {
+  font-family: 'TT Norms Pro', sans-serif;
 }
 
 main #add {
@@ -726,6 +766,7 @@ main #add .title {
   font-size: 16px;
   color: #27214D;
   margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
   font-weight: 500;
   margin: 40px;
 }
@@ -740,6 +781,7 @@ main #add h2 {
   font-size: 16px;
   margin-left: 24px;
   color: #27214D;
+  font-family: 'TT Norms Pro', sans-serif;
   font-size: 18px;
   margin-top: 57px;
 }
@@ -759,6 +801,7 @@ main #add ul li {
   font-size: 16px;
   margin-left: 24px;
   color: #27214D;
+  font-family: 'TT Norms Pro', sans-serif;
   color: #403E3E;
   display: inline;
   line-height: 16px;
@@ -773,6 +816,7 @@ main #add h3 {
   font-size: 16px;
   margin-left: 24px;
   color: #27214D;
+  font-family: 'TT Norms Pro', sans-serif;
   color: #333333;
   font-weight: 300;
   font-size: 14px;
@@ -798,9 +842,399 @@ main #add .btn {
   position: absolute;
   right: 24px;
   bottom: 16px;
+  border: none;
 }
 
-body, html {
-  font-family: 'tt-norms-pro', sans-serif;
+main #add .btn a {
+  color: white;
+  text-decoration: none;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+#basket-header {
+  height: 127px;
+  background: #FFA451;
+}
+
+#basket-header .nav-bar ul li .relogio {
+  position: absolute;
+  width: 54px;
+  left: 21px;
+  right: 300px;
+  top: 14px;
+  bottom: 11px;
+}
+
+#basket-header .nav-bar ul li .sinal {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  top: 17.67px;
+  left: 293.67px;
+}
+
+#basket-header .nav-bar ul li .wifi {
+  position: absolute;
+  width: 15.27px;
+  height: 10.97px;
+  top: 17.33px;
+  left: 315.69px;
+}
+
+#basket-header .nav-bar ul li .bateria {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  top: 17.33px;
+  left: 336px;
+}
+
+#basket-header .btn {
+  width: 75px;
+  height: 32px;
+  border: none;
+  border-radius: 100px;
+  position: absolute;
+  top: 68px;
+  left: 24px;
+  padding: 6px, 8px, 6px, 8px;
+}
+
+#basket-header .btn a {
+  text-decoration: none;
+  width: 45px;
+  height: 16px;
+  color: #27214D;
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+#basket-header .btn a .seta {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  right: 4px;
+  width: 10px;
+  height: 20px;
+}
+
+#basket-header .title {
+  position: absolute;
+  top: 68px;
+  left: 131px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #27214D;
+  margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
+  color: white;
+  line-height: 32px;
+  font-size: 24px;
+}
+
+.main-basket .prato {
+  width: 40px;
+  height: 40px;
+  margin-left: 37px;
+  margin-top: 60px;
+}
+
+.main-basket .prato:nth-child(2) {
+  margin-top: 48px;
+}
+
+.main-basket .prato:nth-child(3) {
+  margin-top: 50px;
+  margin-bottom: 397px;
+}
+
+.main-basket .title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #27214D;
+  margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
+  width: 135px;
+  height: 26px;
+  color: #333333;
+  position: absolute;
+  left: 70px;
+  top: 184px;
+  size: 16px;
+}
+
+.main-basket .title2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #27214D;
+  margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
+  width: 135px;
+  height: 26px;
+  color: #333333;
+  position: absolute;
+  left: 70px;
+  top: 281px;
+}
+
+.main-basket .title3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #27214D;
+  margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
+  width: 135px;
+  height: 26px;
+  color: #333333;
+  position: absolute;
+  left: 70px;
+  top: 378px;
+}
+
+.main-basket .simbolo {
+  width: 16px;
+  height: 12.8;
+  color: #27214D;
+  position: absolute;
+  top: 233px;
+  left: 95px;
+}
+
+.main-basket .simbolo2 {
+  width: 16px;
+  height: 12.8;
+  color: #27214D;
+  position: absolute;
+  top: 330px;
+  left: 95px;
+}
+
+.main-basket .simbolo3 {
+  width: 16px;
+  height: 12.8;
+  color: #27214D;
+  position: absolute;
+  top: 427px;
+  left: 95px;
+}
+
+.main-basket h3 {
+  position: absolute;
+  width: 56px;
+  height: 19px;
+  font-weight: 500;
+  size: 16px;
+  letter-spacing: -1%;
+  color: #27214D;
+  top: 232px;
+  left: 112px;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.main-basket h4 {
+  position: absolute;
+  width: 56px;
+  height: 19px;
+  font-weight: 500;
+  size: 16px;
+  letter-spacing: -1%;
+  color: #27214D;
+  top: 329px;
+  left: 112px;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.main-basket h5 {
+  position: absolute;
+  width: 56px;
+  height: 19px;
+  font-weight: 500;
+  size: 16px;
+  letter-spacing: -1%;
+  color: #27214D;
+  bottom: 367px;
+  left: 112px;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.main-basket .subtrai {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 200.5px;
+  right: 24px;
+}
+
+.main-basket .subtrai2 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 24px;
+  top: 297.5px;
+}
+
+.main-basket .subtrai3 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 24px;
+  top: 394.5px;
+}
+
+.main-basket .checkout .preco {
+  position: absolute;
+  bottom: 58px;
+  left: 24px;
+  width: 110px;
+  height: 52px;
+}
+
+.main-basket .checkout .btn {
+  position: absolute;
+  width: 219px;
+  height: 56px;
+  border-radius: 10px;
+  background: #FFA451;
+  border: none;
+  bottom: 58px;
+  right: 10px;
+}
+
+.main-basket .checkout .btn a {
+  text-decoration: none;
+  font-family: 'TT Norms Pro', sans-serif;
+  color: white;
+}
+
+.fundobranco-check {
+  background: #FFFFFF;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+.fundobranco-check .nav-bar ul li .relogio {
+  position: absolute;
+  width: 54px;
+  left: 21px;
+  right: 300px;
+  top: 14px;
+  bottom: 11px;
+}
+
+.fundobranco-check .nav-bar ul li .sinal {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  top: 17.67px;
+  left: 293.67px;
+}
+
+.fundobranco-check .nav-bar ul li .wifi {
+  position: absolute;
+  width: 15.27px;
+  height: 10.97px;
+  top: 17.33px;
+  left: 315.69px;
+}
+
+.fundobranco-check .nav-bar ul li .bateria {
+  position: absolute;
+  width: 24.33px;
+  height: 11.33px;
+  top: 17.33px;
+  left: 336px;
+}
+
+#imagem-check .imagem .box {
+  width: 164px;
+  height: 164px;
+  position: absolute;
+  top: 164px;
+  left: 106px;
+}
+
+#imagem-check .imagem .order {
+  font-weight: 700;
+  font-size: 16px;
+  color: #27214D;
+  margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-weight: 400;
+  width: 50%;
+  height: 48px;
+  position: absolute;
+  top: 368px;
+  right: 80px;
+  font-size: 32px;
+}
+
+#imagem-check .imagem .messege {
+  position: absolute;
+  top: 418px;
+  right: 64px;
+  font-weight: 300;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 24px;
+  color: #27214D;
+  font-family: 'TT Norms Pro', sans-serif;
+  width: 247px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
+#imagem-check .btn {
+  width: 208px;
+  height: 56px;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 522px;
+  left: 84px;
+  padding: 6px, 8px, 6px, 8px;
+  background: #FFA451;
+}
+
+#imagem-check .btn a {
+  text-decoration: none;
+  width: 80px;
+  height: 24px;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: 'TT Norms Pro', sans-serif;
+}
+
+#imagem-check .back {
+  width: 183px;
+  height: 56px;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 602px;
+  left: 96.5px;
+  padding: 6px, 8px, 6px, 8px;
+  background: white;
+}
+
+#imagem-check .back a {
+  text-decoration: none;
+  width: 80px;
+  height: 24px;
+  color: #FFA451;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: 'TT Norms Pro', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

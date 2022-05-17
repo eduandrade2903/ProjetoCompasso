@@ -1,6 +1,6 @@
 $cor-de-fundo: #FFA451;
 $fundo-input: #dad6d6;
-$fonte: 'Roboto', sans-serif;
+$fonte: 'tt-norms-pro', sans-serif;
 $cor-fonte-texto: #27214D;
 
 @mixin nav {
@@ -44,6 +44,7 @@ $cor-fonte-texto: #27214D;
     font-size: 16px;
     color: #27214D;
     margin-left: 24px;
+    font-family:'TT Norms Pro', sans-serif;
 }
 @mixin font-text {
 
@@ -51,6 +52,7 @@ $cor-fonte-texto: #27214D;
     font-size: 16px;
     margin-left: 24px;
     color: #27214D;
+    font-family:'TT Norms Pro', sans-serif;
     
 }
 
@@ -62,4 +64,5 @@ $cor-fonte-texto: #27214D;
     background: $cor-de-fundo;
   
 } 
+
     

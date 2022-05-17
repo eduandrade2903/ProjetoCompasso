@@ -1,0 +1,202 @@
+@import '../abstract/variaveis';
+#basket-header{
+    @include nav;
+    height: 127px;
+    background: $cor-de-fundo;
+        .btn{
+            width: 75px;
+            height: 32px;
+            border: none;
+            border-radius: 100px;
+            position: absolute;
+            top: 68px;
+            left: 24px;
+            padding:6px, 8px, 6px, 8px;
+        
+        a{
+            text-decoration: none;
+            width: 45px;
+            height: 16px;
+            color: $cor-fonte-texto;
+            margin-left: 10px;
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 400;
+            font-family:'TT Norms Pro', sans-serif;
+            .seta{
+                position:absolute ;
+                top: 6px;
+                left: 8px;
+                right: 4px;
+                width: 10px;
+                height: 20px;
+            }
+        }
+
+        }
+        .title{
+            position: absolute;
+            top:68px;
+            left: 131px;
+            @include font-title;
+            color: white;
+            line-height: 32px;
+            font-size: 24px;
+        }
+}
+.main-basket{
+    .prato{
+        
+        width: 40px;
+        height: 40px;
+        margin-left: 37px;
+        margin-top: 60px;
+    }
+    .prato:nth-child(2)
+    {
+        margin-top: 48px;
+    }
+    .prato:nth-child(3)
+    {
+        margin-top: 50px;
+        margin-bottom:  397px;
+    }
+    .title{
+        @include font-title;
+        width: 135px;
+        height: 26px;
+        color:#333333;
+        position: absolute;
+        left: 70px;
+        top: 184px;
+        size: 16px;
+        
+    }
+    .title2{
+        @include font-title;
+        width: 135px;
+        height: 26px;
+        color:#333333;
+        position: absolute;
+        left: 70px; 
+        top: 281px;
+    }
+    
+    .title3{
+        @include font-title;
+        width: 135px;
+        height: 26px;
+        color:#333333;
+        position: absolute;
+        left: 70px; 
+        top: 378px;
+    }
+
+    .simbolo{
+        width: 16px;
+        height: 12.8;
+        color: $cor-fonte-texto;
+        position: absolute;
+        top: 233px;
+        left: 95px;
+    }
+    .simbolo2{
+        width: 16px;
+        height: 12.8;
+        color: $cor-fonte-texto;
+        position: absolute;
+        top: 330px;
+        left: 95px;
+    }
+    .simbolo3{
+        width: 16px;
+        height: 12.8;
+        color: $cor-fonte-texto;
+        position: absolute;
+        top: 427px;
+        left: 95px;
+    }
+    h3{
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        font-weight: 500;
+        size: 16px;
+        letter-spacing: -1%;
+        color: $cor-fonte-texto;
+        top: 232px;
+        left: 112px;
+        font-family:'TT Norms Pro', sans-serif;
+    }
+    h4{
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        font-weight: 500;
+        size: 16px;
+        letter-spacing: -1%;
+        color: $cor-fonte-texto;
+        top:329px;
+        left: 112px;
+        font-family:'TT Norms Pro', sans-serif;
+    }
+    h5{
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        font-weight: 500;
+        size: 16px;
+        letter-spacing: -1%;
+        color: $cor-fonte-texto;
+        bottom: 367px;
+        left: 112px;
+        font-family:'TT Norms Pro', sans-serif;
+    }  
+    .subtrai{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        top: 200.5px;
+        right: 24px;
+    }
+    .subtrai2{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        right: 24px;
+        top: 297.5px;
+    }
+    .subtrai3{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        right: 24px;
+        top: 394.5px;
+    }
+    .checkout{
+        .preco 
+        {
+            position: absolute;
+            bottom: 58px;
+            left: 24px;
+            width: 110px;
+            height: 52px;
+        }
+
+        .btn{
+            position: absolute;
+            width: 219px;
+            height: 56px;
+            border-radius: 10px;
+            background: $cor-de-fundo;
+            border: none;
+            bottom: 58px;
+            right: 10px;
+        a{
+            text-decoration: none;
+            font-family:'TT Norms Pro', sans-serif;
+            color: white;
+        }
+        }
+    }
+}

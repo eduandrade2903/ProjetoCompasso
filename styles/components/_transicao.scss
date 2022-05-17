@@ -1,5 +1,7 @@
 @import '../abstract/variaveis';
+
     #Welcome-header{
+        font-family:'TT Norms Pro', sans-serif;
         background: $cor-de-fundo;
         text-align: center;
         width: 375px;
@@ -40,6 +42,7 @@
             font-size: 16px;
             color: #27214D;
             margin-left: 24px;
+            font-family:'TT Norms Pro', sans-serif;
     }
     @mixin font-text {
         
@@ -47,6 +50,7 @@
             font-size: 16px;
             margin-left: 24px;
             color: #27214D;
+            font-family:'TT Norms Pro', sans-serif;
             
     }
     #content{
@@ -55,21 +59,32 @@
         vertical-align: bottom;
         margin: 40px 24px 92px 24px;
         .title{
+            margin-bottom: 8px;
             line-height: 19.17px;
             font-style: bold;
             letter-spacing: -1%;
-            @include font-title();
+            @include font-title;
+            
         }
         .p{
+            padding: 10px;
             line-height: 24px;
-            @include font-text();
+            @include font-text;
         }
         .btn{
             position: absolute;
-            width: 219px;
+            top: 664px;
+            left: 24px;
+            width: 327px;
             height: 56px;
             border-radius: 10px;
             background: $cor-de-fundo;
+            border: none;
+            a{
+                text-decoration: none;
+                color: #FFF;
+                font-family:'TT Norms Pro', sans-serif;
+            }
     }
     }
 

@@ -1,6 +1,7 @@
 @import '../abstract/variaveis';
 
 #cart-header{
+    font-family:'TT Norms Pro', sans-serif;
     @include nav;
     height: 314px;
     background: $cor-de-fundo;
@@ -12,25 +13,28 @@
         left: 101px;
         right: 98px;
     }
+     
     .btn{ 
-        width: 75px;
-        height: 32px;
-        border: none;
-        border-radius: 100px;
-        position: absolute;
-        top: 64px;
-        left: 24px;
-        padding:6px, 8px, 6px, 8px;
-
-        a{
-        text-decoration: none;
-        color: $cor-fonte-texto;
-        margin-left: 10px;
-        font-size: 12px;
-        line-height: 16px;
-        font-weight: 400;
-       
-        }
+          width: 75px;
+          height: 32px;
+          border: none;
+          border-radius: 100px;
+          position: absolute;
+          top: 64px;
+          left: 24px;
+          padding:6px, 8px, 6px, 8px;
+    
+          a{
+          text-decoration: none;
+          color: $cor-fonte-texto;
+          margin-left: 10px;
+          font-size: 12px;
+          line-height: 16px;
+          font-weight: 400;
+          font-family:'TT Norms Pro', sans-serif;
+         
+          }
+      
         .seta{
             position:absolute ;
             top: 6px;
@@ -43,6 +47,7 @@
     }
 }
 main{
+    font-family:'TT Norms Pro', sans-serif;
     #add{
         top: 314px;
         background-color: #FFF;
@@ -52,6 +57,7 @@ main{
             @include font-title;
             font-weight: 500;
             margin: 40px;
+            
         }
         .qtd{
             margin-left: 24px;
@@ -102,6 +108,13 @@ main{
             position: absolute;
             right: 24px;
             bottom: 16px;
+            border:none;
+            
+            a{
+                color: white;
+                text-decoration: none;
+                font-family:'TT Norms Pro', sans-serif;
+            }
         }
     }
 }

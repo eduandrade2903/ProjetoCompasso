@@ -1,0 +1,85 @@
+@import '../abstract/variaveis';
+.fundobranco-check{
+    background: #FFFFFF;
+    font-family:'TT Norms Pro', sans-serif;
+    @include nav;
+    
+}
+#imagem-check{
+    .imagem{
+        .box{
+            width: 164px;
+            height: 164px;
+            position: absolute;
+            top: 164px;
+            left: 106px;
+        }
+        .order{
+            @include font-title;
+            font-weight: 400;
+            width: 50%;
+            height: 48px;
+            position: absolute;
+            top: 368px;
+            right: 80px;
+            font-size: 32px;
+        }
+        .messege{
+            position: absolute;
+            top: 418px;
+            right: 64px;
+            font-weight: 300;
+            font-size: 16px;
+            @include font-text;
+            width: 247px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: -0.01em;
+        }
+    }
+    .btn{
+            width: 208px;
+            height: 56px;
+            border: none;
+            border-radius: 10px;
+            position: absolute;
+            top: 522px;
+            left: 84px;
+            padding:6px, 8px, 6px, 8px;
+            background: $cor-de-fundo;
+        
+        a{
+            text-decoration: none;
+            width: 80px;
+            height: 24px;
+            color: white;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+            font-family:'TT Norms Pro', sans-serif;
+        }
+    }
+    .back{
+            width: 183px;
+            height: 56px;
+            border: none;
+            border-radius: 10px;
+            position: absolute;
+            top: 602px;
+            left: 96.5px;
+            padding:6px, 8px, 6px, 8px;
+            background: white;
+        
+        a{
+            text-decoration: none;
+            width: 80px;
+            height: 24px;
+            color: $cor-de-fundo;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            font-family:'TT Norms Pro', sans-serif;
+        }
+    }
+}
