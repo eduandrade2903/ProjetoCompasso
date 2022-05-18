@@ -1,4 +1,4 @@
-
+@import '../abstract/variaveis';
     .fundobranco{
         background: #FFFFFF;
         font-family:'TT Norms Pro', sans-serif;
@@ -49,6 +49,25 @@
             top: 303px;
             left: 95px;
         }
+        
     }
+    .c-loader {
+        animation: is-rotating 1s infinite;
+        border: 6px solid #e6e6e6;
+        border-radius: 50%;
+        border-top-color: $cor-de-fundo;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 550px;
+        left: 158.2px;
+
+      }
+      
+      @keyframes is-rotating {
+        to {
+          transform: rotate(1turn);
+        }
+      }
     
 }

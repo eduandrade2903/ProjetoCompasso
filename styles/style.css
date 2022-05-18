@@ -45,6 +45,33 @@
   left: 95px;
 }
 
+#imagem .c-loader {
+  -webkit-animation: is-rotating 1s infinite;
+          animation: is-rotating 1s infinite;
+  border: 6px solid #e6e6e6;
+  border-radius: 50%;
+  border-top-color: #FFA451;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 550px;
+  left: 158.2px;
+}
+
+@-webkit-keyframes is-rotating {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes is-rotating {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
 #Welcome-header {
   font-family: 'TT Norms Pro', sans-serif;
   background: #FFA451;
@@ -464,7 +491,7 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -1%;
-  width: 117px;
+  width: 130px;
   height: 18px;
   left: 0;
 }
@@ -514,7 +541,7 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -1%;
-  width: 127px;
+  width: 135px;
   height: 18px;
   left: 16px;
 }
@@ -595,7 +622,7 @@
 .main-home #selecao .others .plate1 h5 {
   position: absolute;
   left: 0;
-  width: 111px;
+  width: 130px;
   height: 18px;
   font-size: 14px;
   font-weight: 500;
@@ -638,7 +665,7 @@
   position: absolute;
   top: 65px;
   left: 0;
-  width: 111px;
+  width: 130px;
   height: 18px;
   font-size: 14px;
   font-weight: 500;
@@ -1055,7 +1082,7 @@ main #add .btn a {
   size: 16px;
   letter-spacing: -1%;
   color: #27214D;
-  bottom: 367px;
+  bottom: 366px;
   left: 112px;
   font-family: 'TT Norms Pro', sans-serif;
 }
@@ -1245,7 +1272,7 @@ main #add .btn a {
           box-sizing: border-box;
   color: #323232;
   border: none;
-  font-family: 'Roboto Serif', serif;
+  font-family: 'TT norms pro', sans-serif;
 }
 
 .addcard .elipse {
@@ -1337,5 +1364,188 @@ form .half-box {
   text-decoration: none;
   font-family: 'TT Norms Pro', sans-serif;
   color: white;
+}
+
+.submit2 {
+  position: absolute;
+  width: 143px;
+  height: 56px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  border: none;
+  top: 290px;
+  left: 211px;
+}
+
+.submit2 a {
+  text-decoration: none;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 24px;
+  color: #27214D;
+  font-family: 'TT Norms Pro', sans-serif;
+  color: #FFA451;
+}
+
+.btn2 {
+  position: absolute;
+  width: 143px;
+  height: 56px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  border: none;
+  top: 290px;
+  left: -16px;
+}
+
+.btn2 a {
+  text-decoration: none;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 24px;
+  color: #27214D;
+  font-family: 'TT Norms Pro', sans-serif;
+  color: #FFA451;
+}
+
+.main-delivery .img {
+  width: 48px;
+  height: 43.25px;
+  position: absolute;
+  top: 186px;
+  left: 33px;
+}
+
+.main-delivery .img2 {
+  position: absolute;
+  top: 294px;
+  left: 33px;
+}
+
+.main-delivery .img3 {
+  position: absolute;
+  top: 400px;
+  left: 33px;
+}
+
+.main-delivery .order {
+  font-weight: 700;
+  font-size: 16px;
+  color: #27214D;
+  margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-weight: 500;
+  width: 100px;
+  height: 19px;
+  color: #333333;
+  position: absolute;
+  left: 105px;
+  top: 201px;
+  size: 16px;
+  line-height: 19.17px;
+}
+
+.main-delivery .order2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #27214D;
+  margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-weight: 500;
+  width: 190px;
+  height: 19px;
+  color: #333333;
+  position: absolute;
+  left: 90px;
+  top: 315px;
+  size: 16px;
+  line-height: 19.17px;
+}
+
+.main-delivery .order3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #27214D;
+  margin-left: 24px;
+  font-family: 'TT Norms Pro', sans-serif;
+  font-weight: 500;
+  width: 190px;
+  height: 19px;
+  color: #333333;
+  position: absolute;
+  left: 90px;
+  top: 416px;
+  size: 16px;
+  line-height: 19px;
+}
+
+.main-delivery .line {
+  position: absolute;
+  left: 57px;
+  top: 245px;
+}
+
+.main-delivery .line1 {
+  position: absolute;
+  left: 57px;
+  top: 359px;
+}
+
+.main-delivery .line2 {
+  position: absolute;
+  left: 57px;
+  top: 473px;
+}
+
+.main-delivery .line3 {
+  position: absolute;
+  left: 57px;
+  top: 651px;
+}
+
+.main-delivery .confirma1 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 196px;
+  right: 24px;
+}
+
+.main-delivery .confirma2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 24px;
+  top: 297.5px;
+}
+
+.main-delivery .confirma3 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 311px;
+  top: 416px;
+}
+
+.main-delivery .mapa {
+  width: 327px;
+  height: 128px;
+  position: absolute;
+  top: 518px;
+  left: 24px;
+}
+
+.main-delivery .confirma {
+  position: absolute;
+  top: 715px;
+  left: 45px;
+}
+
+.main-delivery p {
+  position: absolute;
+  top: 721px;
+  left: 105px;
 }
 /*# sourceMappingURL=style.css.map */

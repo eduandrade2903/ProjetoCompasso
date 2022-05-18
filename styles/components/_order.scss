@@ -1,0 +1,123 @@
+@import '../abstract/variaveis';
+.main-delivery{
+    .img{
+        
+        width: 48px;
+        height: 43.25px;
+        position: absolute;
+        top: 186px;
+        left: 33px;
+    }
+    .img2
+    {
+       position: absolute;
+       top: 294px;
+       left: 33px;
+    }
+    .img3
+    {
+        position: absolute;
+        top: 400px;
+        left: 33px;
+    }
+    .order{
+        @include font-title;
+        font-weight: 500;
+        width: 100px;
+        height: 19px;
+        color:#333333;
+        position: absolute;
+        left:105px;
+        top: 201px;
+        size: 16px;
+        line-height: 19.17px
+        
+    }
+    .order2{
+        @include font-title;
+        font-weight: 500;
+        width: 190px;
+        height: 19px;
+        color:#333333;
+        position: absolute;
+        left:90px;
+        top: 315px;
+        size: 16px;
+        line-height: 19.17px
+    }
+    
+    .order3{
+        @include font-title;
+        font-weight: 500;
+        width: 190px;
+        height: 19px;
+        color:#333333;
+        position: absolute;
+        left:90px;
+        top:416px;
+        size: 16px;
+        line-height: 19px
+    }
+
+  .line{
+      position: absolute;
+      left: 57px;
+      top: 245px;
+  }
+  .line1{
+      position: absolute;
+      left: 57px;
+      top: 359px;
+  }
+  .line2{
+      position: absolute;
+      left: 57px;
+      top: 473px;
+  }
+  .line3{
+      position: absolute;
+      left: 57px;
+      top: 651px;
+  }
+ 
+    
+    
+    .confirma1{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 196px;
+        right: 24px;
+    }
+    .confirma2{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 24px;
+        top: 297.5px;
+    }
+    .confirma3{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 311px;
+        top: 416px;
+    }
+    .mapa{
+        width: 327px;
+        height: 128px;
+        position: absolute;
+        top: 518px;
+        left: 24px;
+    }
+    .confirma{
+        position: absolute;
+        top: 715px;
+        left: 45px;
+    }
+    p{
+        position: absolute;
+        top: 721px;
+        left: 105px;
+    }
+}

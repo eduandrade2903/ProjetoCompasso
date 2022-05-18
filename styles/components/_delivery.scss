@@ -1,0 +1,33 @@
+@import '../abstract/variaveis';
+.submit2{
+    position: absolute;
+        width: 143px;
+        height: 56px;
+        border-radius: 10px;
+        background: #FFFFFF;
+        border: none;
+        top: 290px;
+        left: 211px;
+    a{
+        text-decoration: none;
+        font-family:'TT Norms Pro', sans-serif;
+        @include font-text;
+        color: $cor-de-fundo;
+    }
+}
+.btn2{
+    position: absolute;
+    width: 143px;
+    height: 56px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: none;
+    top: 290px;
+    left: -16px;
+a{
+    text-decoration: none;
+    font-family:'TT Norms Pro', sans-serif;
+    @include font-text;
+    color: $cor-de-fundo;
+}
+}
